@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior:unset ;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/lap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 250px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    font-size: 70px;
+}
+.box{
+    text-align: center;
+};
+
+.welcome{
+    text-align: center;
+    
+}
+
+
+.div1{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 85px;
+    margin: 0px auto;
+    background-image: url(./images/ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen(max-width: 450px){
+    .div1 p{
+        padding: 0px;    
+    }
+}
+
+.div2{
+    
+    width:100vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./images/oc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.div2 ul li{
+    display: inline-block;
+    margin: 25px 80px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.div2 nav ul li a{
+    text-decoration: none;
+    color: rgb(139, 19, 19);
+    font-family: 'Coda Caption', sans-serif;   
+}
+.div2 nav ul li a:hover{
+    opacity: 0.80;
+}
+.div2 ul li a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 450px){
+    .div2 ul li{
+        display: block;
+        max-width: 0px auto;
+    }
+}
+
+.about{
+    width: 90vw;
+    height: 80vh;
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Pacifico', cursive;
+    margin: 40px auto; 
+    text-align: center;
+    font-size: 30px;
+    background-image: url(./images/glass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    
+}
+@media only screen and(max-width: 450px){
+    .about{
+        font-size: 30px;
+        font-family: 'Coda Caption', sans-serif;
+        font-family: 'EB Garamond', serif;
+        font-family: 'Pacifico', cursive;
+    
+        
+    }
+}
+
+
+.qualification{
+    width: 90vw;
+    height: 80vh;
+    margin: 2px auto; 
+    text-align: center;
+    font-size: 30px;
+    background-image: url(./images/book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y: hidden;
+}
+
+.img1{
+
+    width: 70%;
+    height: 32%;
+    margin: 7px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+@media only screen and(max-width: 450px){
+    .img1{
+        flex-direction: column;
+    }
+}
+.geu1,.sun1,.aps1{
+    
+    width:50%;
+    height: 70%;
+    margin: 5px;
+
+
+}
+
+#geu11,#sun11,#aps11{
+    width:25%;
+    height: 95%;
+    margin-right: 100px;
+
+}
+#geu12,#sun12,#aps12{
+    margin: auto 5px;
+    font-weight: bold;
+}
+
+.geu1{
+    background-image: url(./images/geu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sun1{
+    background-image: url(./images/sunbeam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.aps1{
+    background-image: url(./images/aps.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    size: 20px;
+}
+
+.skills{
+    width: 90vw;
+    height: 80vh;
+    margin: 2px auto; 
+    text-align: center;
+    font-size: 40px;
+    background-image: url(./images/pen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Pacifico', cursive;
+   
+}
+.contact{
+    width: 100vw;
+    height: 18vh;
+    margin: 2px auto; 
+    text-align: center;
+    font-size: 30px;
+    background-image: url(./images/pi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.s0cial{
+    margin: 0px 70px;
+
+}
+
+.about1{
+    margin: 6px auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.quali1{
+    margin: 4px auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: underline;
+
+}
+.skill1{
+    margin: 6px 40px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: underline;
+
+}
+
+.contact1{
+    margin: 6px auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: underline;
+
+}
+.button{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+   
+
+}
+.button1,.button2{
+    border-radius: 25px;
+    height: 60%;
+    margin: 10px auto;
+    width: 20%;
+    background-color: rgb(139, 19, 19);
+    padding:6px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.copy{
+    width: 100vw;
+    height: 7vh;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(112, 35, 270);
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+@media only screen and(max-width: 1050px){
+    .about1,.quali1,.skill1,.contact1{
+        text-align: left;
+    }
+}
+
+

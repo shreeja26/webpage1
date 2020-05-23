@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b44b66b583.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=EB+Garamond:wght@500&family=Pacifico&family=Shrikhand&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Pacifico&family=Shrikhand&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Shrikhand&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stle.css">
+    <title>Welcome !</title>
+</head>
+<body>
+    <div class="div1">
+        <p class="welcome">welcome</p>
+    </div>
+    <div class="div2">
+        <nav>
+            <ul>
+                
+                <li><a href='#about'>ABOUT</a</li>
+                <li><a href='#qualification'>QUALIFICATIONS</a></li>
+                <li><a href='#skill'>SKILLS</a></li>
+                <li><a href='#contact'>CONTACT</a></li>
+                <li><a href='index.html'>HOME</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+    <main>
+        <section>
+            <a name="about"></a>
+            <h3 class="about1">ABOUT</h3>
+            <div class="about">
+                Hey  Everyone...Hope  you  all  doing  great , so  yaa  myself  Shreeja  Raj, I'm  very  passionate  about  web  devlopment. I  thrive  on
+                 challenges  and  constantly  set  goals  for  myself , so  I  have  something  to  strive  towards. I'm  not  comfortable  with  
+                 settling , and  I'm  always  looking  for  an  opportunity  to  do  better  and  achieve  greatness. 
+            </div>
+        </section>
+        <section>
+            <a name="qualification"></a>
+            <h3 class="quali1">QUALIFICATIONS</h3>
+            <div class="qualification">
+                <div class="img1">
+                    <div class="geu1" id="geu11"></div>
+                    <div  id="geu12">2019-2023<br>
+                        Graphic Era University</div>
+
+                </div>
+                <div class="img1"> 
+                    <div class="sun1" id="sun11"></div>
+                    <div  id="sun12">2017-2019<br>
+                        Sunbeam Schools,Varanasi<br>
+                        Seniour-Secondary(CBSE) </div>
+                </div>
+                <div class="img1">
+                    <div class="aps1" id="aps11"> </div>
+                    <div  id="aps12">2007-2017<br>
+                        Army Public School,Varanasi<br>
+                        secondary(CBSE)
+
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section>
+            <a name="skill"></a>
+            <h3 class="skill1">SKILLS</h3>
+            <div class="skills">
+                <ul class="ski">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Responsive Website</li>
+                    <li>JavaScript</li>
+                    <li>Dom Manupulation</li>
+                    <li>Python</li>
+                    <li>C </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <a name="contact"></a>
+            <h3 class="contact1"> CONTACT</h3>
+            <div class="contact">
+                <div class="social"><i class="fab fa-linkedin fa-2x"></i></div>
+                <div class="social"><i class="fab fa-facebook-square fa-2x"></i></div>
+                <div class="social"><i class="fab fa-github fa-2x"></i></div>
+            </div>
+        </section>
+        <div class="button">
+            <div class="button1" onmouseover="mOver(this)" onmouseout="mOut(this)">Mouse Over Me</div>
+            <div class="button2" onmousedown="mDown(this)" onmouseup="mUp(this)">Click Me</div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="copy">
+         copyright&copy;shreeja raj
+        </div>
+
+    </footer>
+    <script>
+        function mOver(obj) {
+          obj.innerHTML = "Thank You"
+        }
+        
+        function mOut(obj) {
+          obj.innerHTML = "Mouse Over Me"
+        }
+        </script>
+        <script>
+            function mDown(obj) {
+              obj.style.backgroundColor = "#1ec5e5";
+              obj.innerHTML = "Release Me";
+            }
+            
+            function mUp(obj) {
+              obj.style.backgroundColor="rgb(139, 19, 19)";
+              obj.innerHTML="Have a nice day";
+            }
+            </script>
+
+    
+    
+</body>
+</html>
